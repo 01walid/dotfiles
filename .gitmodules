@@ -1,0 +1,3 @@
+[submodule "/home/walid/.local/share/omf"]
+	path = /home/walid/.local/share/omf
+	url = https://github.com/oh-my-fish/oh-my-fish.git
