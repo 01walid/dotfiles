@@ -1,6 +1,10 @@
 [submodule ".local/share/omf"]
-	path = .local/share/omf
-	url = https://github.com/oh-my-fish/oh-my-fish.git
+    path = .local/share/omf
+    url = https://github.com/oh-my-fish/oh-my-fish.git
+    ignore = dirty
+
 [submodule ".tmux"]
-	path = .tmux
-	url = https://github.com/gpakosz/.tmux.git
+    path = .tmux
+    url = https://github.com/gpakosz/.tmux.git
+    ignore = dirty
+
