@@ -140,4 +140,5 @@ alias http=xh
 
 # Dotfiles bare repo Git alias
 alias dotfiles='git --git-dir=$HOME/.df-repo/ --work-tree=$HOME'
+alias todo='vim .todo'
 
