@@ -33,10 +33,18 @@ dotfiles config --local status.showUntrackedFiles no
 Arch Linux with: 
 
 - Terminal: [Alacritty](https://github.com/alacritty/alacritty).
-- tmux with [oh my tmux!](https://github.com/gpakosz/.tmux).
-- the fish shell, with [oh my fish](https://github.com/oh-my-fish/oh-my-fish).
+- tmux. 
+- the zsh shell, with [oh my zsh](https://ohmyz.sh/).
 - vim ([neovim](https://neovim.io/)).
-- [Qtile](http://www.qtile.org/), the tiling window manager.
+- ~~[qtile](http://www.qtile.org/), the tiling window manager.~~
+
+## Installed packages
+
+Installed packaged are optained with: `pacman -Qqen` and saved in [.pkglist](.pgklist).
+
+Package can be installed back with: `pacman -S --needed - < pkglist`.
+
+More info at [Arch Wiki])(https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#List_of_installed_packages)
 
 ### TODO
 - [ ] dmenu, polybar config.
